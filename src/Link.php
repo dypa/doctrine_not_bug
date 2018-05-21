@@ -10,7 +10,6 @@ class Link
      * @Id
      * @JoinColumn(referencedColumnName="id", onDelete="CASCADE")
      * @ManyToOne(targetEntity="Item")
-     * @Column(name="`from`")
      */
     private $from;
 
@@ -18,7 +17,6 @@ class Link
      * @Id
      * @JoinColumn(referencedColumnName="id", onDelete="CASCADE")
      * @ManyToOne(targetEntity="Item")
-     * @Column(name="`to`")
      */
     private $to;
 
